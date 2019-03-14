@@ -86,12 +86,19 @@ button {
     font-size: 15px;
     color: white;
     transition: all .3s ease;
+    outline: none;
 }
 
 button:hover {
     box-shadow: 0 12px 52px 0 rgba(0,0,0,0.15);
     transform: scale(1.02);
     cursor: pointer;
+}
+
+button:active {
+    background: #006054;
+    border: none;
+    outline: none;
 }
 
 #img01 {
