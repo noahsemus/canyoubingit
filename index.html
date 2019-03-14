@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Can you Bing it?</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+    
+<body>
+    <div class="home">
+        <h1>Can you <b>Bing</b> it?</h1>
+        <p>Can Bing search as much as Google?</p>
+        <form method="get" action="yeah.html">
+            <input type="text" placeholder="Bing!">
+            <button>Can I?</button>
+        </form>
+    </div>
+    
+    <script>
+    function validateForm() {
+  var x = document.forms["text"].value;
+  if (x == "") {
+    alert("Name must be filled out");
+    return false;
+  }
+}
+    </script>
+    
+</body>
+    
+</html>
