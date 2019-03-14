@@ -115,6 +115,7 @@ button:active {
     top: 40px;
     right: 20px;
     color: white;
+    z-index: 10;
     -webkit-animation: shake-horizontal 0.8s linear infinite both;
 	        animation: shake-horizontal 0.8s linear infinite both;
 }
