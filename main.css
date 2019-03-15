@@ -89,6 +89,20 @@ button {
     z-index: 99;
 }
 
+button:disabled {
+    background: gray;
+    color: white;
+    outline: none;
+    opacity: .2;
+}
+
+button:disabled:hover {
+    background: gray;
+    color: white;
+    outline: none;
+    opacity: .2;
+}
+
 button:hover {
     background: black;
     color: white;
